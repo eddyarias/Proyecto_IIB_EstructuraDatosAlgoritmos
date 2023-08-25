@@ -9,10 +9,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Clases\" />
-    <Folder Include="Inferfaces\" />
-    <Folder Include="Imagenes\" />
-    <Folder Include="Documentos\" />
+    <Compile Remove="Clases\**" />
+    <Compile Remove="Documentos\**" />
+    <Compile Remove="Imagenes\**" />
+    <Compile Remove="Inferfaces\**" />
+    <EmbeddedResource Remove="Clases\**" />
+    <EmbeddedResource Remove="Documentos\**" />
+    <EmbeddedResource Remove="Imagenes\**" />
+    <EmbeddedResource Remove="Inferfaces\**" />
+    <None Remove="Clases\**" />
+    <None Remove="Documentos\**" />
+    <None Remove="Imagenes\**" />
+    <None Remove="Inferfaces\**" />
   </ItemGroup>
 
 </Project>
